@@ -3337,7 +3337,7 @@ input, select, textarea {
 /* HERO GAMING */
 
 .hero-gaming {
-  background-image: url("images/gaming-bg.jpg");
+  background-image: url("images/gaming-bg.jpg.png");
   background-size: cover;
   background-position: center;
   padding: 3rem 2rem;
@@ -3369,5 +3369,6 @@ input, select, textarea {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(255,0,60,0.6);
 }
+
 
 
