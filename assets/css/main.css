@@ -3333,3 +3333,28 @@ input, select, textarea {
   width: 64px;
   height: auto;
 }
+
+/* HERO GAMING */
+
+.hero-gaming {
+  background-image: url("images/gaming-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 2rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  color: #fff;
+  text-shadow:
+    0 0 10px #ff0040,
+    0 0 20px #ff0040,
+    0 0 40px #ff0040;
+}
+
+.hero-sub {
+  font-size: 1.3rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
