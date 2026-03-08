@@ -3334,88 +3334,25 @@ input, select, textarea {
   height: auto;
 }
 
-/* === HERO GAMING BACKGROUND === */
+/* === HERO GAMING + TITLE GLOW + BACKGROUND + ANIMATION  */
 .hero-gaming {
   background-image: url("../images/gaming-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 3rem 1.5rem;
+  padding: 3rem 2rem;
   text-align: center;
 }
 
-.hero-title {
-  font-size: 5rem;
-  color: #fff;
-  text-shadow:
-    0 0 10px #ff0040,
-    0 0 20px #ff0040,
-    0 0 40px #ff0040;
-}
-
-.hero-sub {
-  font-size: 1.2rem;
-  color: #ccc;
-  margin-bottom: 2rem;
-}
-
-/* TILE ANIMATION */
-
-.tiles article {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tiles article:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(255,0,60,0.6);
-}
-
-
-/* === HERO TITLE STYLE === */
-.hero-title {
-  font-size: 3rem;
-  color: #fff;
-  text-shadow:
-    0 0 8px #ff0040,
-    0 0 20px #ff0040,
-    0 0 30px #ff0040;
-  margin-bottom: 0.5rem;
-}
-
-.hero-sub {
-  font-size: 1.2rem;
-  color: #ddd;
-  margin-bottom: 1.5rem;
-}
-
-
-
-/* ===================================================== */
-/* HERO GAMING + TITLE GLOW + BACKGROUND + ANIMATION  */
-/* Προσθέστε στο τέλος του main.css                     */
-/* ===================================================== */
-
-/* HERO GAMING BACKGROUND */
-.hero-gaming {
-  background-image: url("../images/gaming-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 3rem 2rem; /* μικρότερο για compact hero */
-  text-align: center;
-}
-
-/* HERO TITLE */
 .hero-title {
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
-/* BLACK BACKGROUND + GLOW EFFECT */
 .title-bg {
-  background-color: #000; /* μαύρο πίσω από τα γράμματα */
+  background-color: #000;
   padding: 0.3rem 0.6rem;
-  color: #fff; /* λευκό γράμμα */
+  color: #fff;
   text-shadow:
     0 0 8px #ff0040,
     0 0 20px #ff0040,
@@ -3424,14 +3361,12 @@ input, select, textarea {
   display: inline-block;
 }
 
-/* HERO SUBTITLE */
 .hero-sub {
   font-size: 1.2rem;
   color: #ddd;
   margin-bottom: 1.5rem;
 }
 
-/* TILES ANIMATION */
 .tiles article {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -3440,5 +3375,4 @@ input, select, textarea {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(255,0,60,0.6);
 }
-
 
