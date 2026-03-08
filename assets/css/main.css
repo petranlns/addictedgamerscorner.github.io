@@ -3281,26 +3281,29 @@ nav ul li a {
 /* ===== TILES ===== */
 .tiles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
 }
 
 .tiles article {
+  position: relative;
   background: #111;
   overflow: hidden;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
+  min-height: 360px; /* μεγάλα tiles όπως πριν */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tiles article:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(255,0,60,0.6);
 }
 
 .tiles article .image img {
   width: 100%;
-  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tiles article:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px rgba(255,0,60,0.5);
 }
 
 .tiles article h2 {
@@ -3374,6 +3377,7 @@ nav ul li a {
   width: 64px;
   height: auto;
 }
+
 
 
 
