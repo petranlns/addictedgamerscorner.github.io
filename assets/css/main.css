@@ -3371,6 +3371,22 @@ input, select, textarea {
 }
 
 
+/* === HERO TITLE STYLE === */
+.hero-title {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow:
+    0 0 8px #ff0040,
+    0 0 20px #ff0040,
+    0 0 30px #ff0040;
+  margin-bottom: 0.5rem;
+}
+
+.hero-sub {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+}
 
 
 
