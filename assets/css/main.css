@@ -3345,7 +3345,7 @@ input, select, textarea {
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 0.5rem;
   color: #fff;
   text-shadow:
     0 0 10px #ff0040,
@@ -3354,7 +3354,7 @@ input, select, textarea {
 }
 
 .hero-sub {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #ccc;
   margin-bottom: 2rem;
 }
@@ -3369,4 +3369,5 @@ input, select, textarea {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(255,0,60,0.6);
 }
+
 
