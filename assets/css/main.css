@@ -3340,7 +3340,7 @@ input, select, textarea {
   background-image: url("images/gaming-bg.jpg");
   background-size: cover;
   background-position: center;
-  padding: 8rem 2rem;
+  padding: 3rem 2rem;
   text-align: center;
 }
 
@@ -3369,3 +3369,4 @@ input, select, textarea {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(255,0,60,0.6);
 }
+
