@@ -2561,7 +2561,23 @@ input, select, textarea {
 			pointer-events: none;
 			opacity: 0.25;
 		}
+/* === FORCE LARGE TILES === */
+.tiles {
+  margin: -1.25em 0 0 -1.25em !important;
+}
 
+.tiles article {
+  width: calc(33.33333% - 2.5em) !important;
+  min-height: 350px !important;
+  margin: 1.25em 0 0 1.25em !important;
+  border-radius: 0.4rem !important;
+}
+
+.tiles article .image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
 /* ===== PHANTOM‑STYLE LARGE TILES ===== */
 .tiles {
   display: grid;
@@ -3358,5 +3374,6 @@ nav ul li a {
   width: 64px;
   height: auto;
 }
+
 
 
