@@ -3369,5 +3369,31 @@ nav ul li a {
 
 
 
+/* === Force LARGE tiles override === */
+.tiles {
+  margin: -1.25em 0 0 -1.25em !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)) !important;
+  gap: 2rem !important;
+}
+
+.tiles article {
+  margin: 1.25em 0 0 1.25em !important;
+  width: auto !important; /* αφαιρεί τα width calc(...) */
+  min-height: 400px !important; /* υψηλότερα για μεγάλο tile */
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.tiles article .image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+body:not(.is-touch) .tiles article:hover > .image {
+  transform: scale(1.1) !important;
+}
 
 
