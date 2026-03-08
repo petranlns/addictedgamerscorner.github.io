@@ -3284,6 +3284,7 @@ nav ul li a {
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
+  padding: 0;
 }
 
 .tiles article {
@@ -3304,18 +3305,6 @@ nav ul li a {
 .tiles article:hover {
   transform: scale(1.03);
   box-shadow: 0 0 30px rgba(255,0,60,0.5);
-}
-
-.tiles article h2 {
-  margin: 1rem;
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-.tiles article .content p {
-  margin: 0 1rem 1rem 1rem;
-  font-size: 1rem;
-  color: #ccc;
 }
 
 /* ===== FOOTER ===== */
@@ -3377,6 +3366,7 @@ nav ul li a {
   width: 64px;
   height: auto;
 }
+
 
 
 
