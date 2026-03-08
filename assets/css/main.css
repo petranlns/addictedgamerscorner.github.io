@@ -2575,7 +2575,9 @@ input, select, textarea {
   background: #111;
   overflow: hidden;
   border-radius: 0.5rem;
-  min-height: 360px; /* πιο ψηλά και μεγάλα */
+  min-height: 360px; /* το ύψος κάνει τα tiles μεγάλα */
+  margin: 2.5em 0 0 2.5em;
+  width: calc(33.333% - 2.5em); /* τρία tiles ανά σειρά */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -3356,4 +3358,5 @@ nav ul li a {
   width: 64px;
   height: auto;
 }
+
 
