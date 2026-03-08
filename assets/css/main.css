@@ -3378,7 +3378,7 @@ input, select, textarea {
 
 /* ====================================================== */
 /* MAIN CSS FOR ADDICTED GAMERS CORNER                   */
-/* Full template + hero + glow + tiles animation        */
+/* Hero + Tiles + Footer + Responsive + Glow Title       */
 /* ====================================================== */
 
 /* ===== RESET & BASE STYLES ===== */
@@ -3397,7 +3397,6 @@ body, html {
   margin: 0 auto;
   padding: 0 2.5em;
 }
-
 @media screen and (max-width: 736px) {
   #wrapper > * > .inner {
     padding: 0 1.25em;
@@ -3435,16 +3434,16 @@ nav ul li a {
 
 /* ===== HERO SECTION ===== */
 .hero-gaming {
+  position: relative;
   background-image: url("../images/gaming-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   padding: 6rem 1rem;
-  position: relative;
 }
 
-/* BLACK FULL WIDTH BACKGROUND BEHIND TITLE */
+/* BLACK FULL-WIDTH BACKGROUND */
 .hero-gaming::before {
   content: "";
   position: absolute;
@@ -3452,7 +3451,7 @@ nav ul li a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.65); /* μαύρο με διάφανο για glow να φαίνεται */
+  background-color: rgba(0,0,0,0.65);
   z-index: 1;
 }
 
@@ -3501,15 +3500,15 @@ nav ul li a {
 /* ===== TILES ===== */
 .tiles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
   margin-top: 3rem;
 }
 
 .tiles article {
   background: #111;
   overflow: hidden;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
