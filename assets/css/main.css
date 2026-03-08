@@ -3390,5 +3390,55 @@ input, select, textarea {
 
 
 
+/* ===================================================== */
+/* HERO GAMING + TITLE GLOW + BACKGROUND + ANIMATION  */
+/* Προσθέστε στο τέλος του main.css                     */
+/* ===================================================== */
+
+/* HERO GAMING BACKGROUND */
+.hero-gaming {
+  background-image: url("../images/gaming-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem 2rem; /* μικρότερο για compact hero */
+  text-align: center;
+}
+
+/* HERO TITLE */
+.hero-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* BLACK BACKGROUND + GLOW EFFECT */
+.title-bg {
+  background-color: #000; /* μαύρο πίσω από τα γράμματα */
+  padding: 0.3rem 0.6rem;
+  color: #fff; /* λευκό γράμμα */
+  text-shadow:
+    0 0 8px #ff0040,
+    0 0 20px #ff0040,
+    0 0 30px #ff0040;
+  font-size: 3rem;
+  display: inline-block;
+}
+
+/* HERO SUBTITLE */
+.hero-sub {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+}
+
+/* TILES ANIMATION */
+.tiles article {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tiles article:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255,0,60,0.6);
+}
 
 
