@@ -3215,13 +3215,26 @@ nav ul li a {
 
 /* ===== HERO SECTION ===== */
 .hero-gaming {
-  position: relative;
-  background-image: url("../images/gaming-bg.jpg");
+  background-image: url("../images/gaming-bg.jpg"); /* η εικόνα σου */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 6rem 2rem;
   text-align: center;
-  padding: 6rem 1rem;
+  position: relative;
+  color: #fff;
+}
+
+/* μαύρο φόντο πίσω από το glow title, που καλύπτει όλο το πλάτος */
+.title-bg {
+  background-color: rgba(0,0,0,0.7); /* πιο διάφανο για να φαίνεται η εικόνα πίσω */
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  display: inline-block;
+  text-shadow:
+    0 0 8px #ff0040,
+    0 0 20px #ff0040,
+    0 0 30px #ff0040;
 }
 
 /* BLACK FULL-WIDTH BACKGROUND */
@@ -3434,6 +3447,7 @@ nav ul li a {
 body:not(.is-touch) .tiles article:hover > .image {
   transform: scale(1.1) !important;
 }
+
 
 
 
