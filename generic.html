@@ -109,4 +109,28 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
 </html>
+<script>
+const params = new URLSearchParams(window.location.search);
+const tile = params.get('tile');
+
+const titleEl = document.querySelector('h1');      // Ο τίτλος της σελίδας
+const contentEl = document.querySelector('.content'); // Το κεντρικό περιεχόμενο
+
+if(tile === 'gaming') {
+    titleEl.textContent = "Gaming Content";
+    contentEl.innerHTML = `
+        <p>Αναλύσεις, tips και walkthroughs για όλα τα τελευταία παιχνίδια.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DrStUlb_0mE"
+        title="Gaming Video" frameborder="0" allowfullscreen></iframe>
+    `;
+} else if(tile === 'simracing') {
+    titleEl.textContent = "SimRacing";
+    contentEl.innerHTML = `
+        <p>Όλα για το SimRacing: setups, tracks, reviews.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2"
+        title="SimRacing Video" frameborder="0" allowfullscreen></iframe>
+    `;
+} // μπορείς να προσθέσεις όλα τα άλλα tiles με το ίδιο pattern
+</script>
